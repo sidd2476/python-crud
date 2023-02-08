@@ -20,4 +20,4 @@ def list_bucket_content(path):
     return jsonify({'Contents': response})
 
 if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0', port=8085)
+    app.run(debug=False, host='0.0.0.0', port=8000)
